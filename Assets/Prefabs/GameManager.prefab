@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3318714757745968617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3318714757745968619}
+  - component: {fileID: 3318714757745968616}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3318714757745968619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318714757745968617}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.558567, y: -5.6465526, z: -0.9842235}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3318714757745968616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3318714757745968617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152bcb8cef0457c4a8ea0657e70455a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cool: {fileID: 2633705635075728908, guid: d3e9a1dfa8c5ac84ebb09c8bfb8e90d9, type: 3}
+  beatiful: {fileID: 7040598460946202043, guid: e2baafcdc21dc034eaff6b5d997dbb72,
+    type: 3}
+  good: {fileID: 5112935628996572375, guid: 2b275b69b75a664459865e350aa02897, type: 3}
+  lapiz: {fileID: 4913282110535143557, guid: 40bd0cdd5014b66469e36e3a313a25bc, type: 3}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  character1: {fileID: 0}
+  character2: {fileID: 0}
+  proyectil1: {fileID: 2690564375352905546, guid: 37aa3375a4849f64d85286cfb4c16793,
+    type: 3}
+  proyectil2: {fileID: 4917533101131168919, guid: 7ed1dcb8531dac949a80e3bfe927c641,
+    type: 3}
+  velocidadDisparoCool: 0.5
+  velocidadDisparoBeautiful: 0.3
+  velocidadDisparoGood: 0.6
+  velocidadDisparoLapiz: 0.5
+  velocidadMovimientoCool: 14
+  velocidadMovimientoBeautiful: 12
+  velocidadMovimientoGood: 8
+  velocidadMovimientoLapiz: 10
+  hpCharacterCool: 3
+  hpCharacterBeautiful: 4
+  hpCharacterGood: 6
+  hpCharacterLapiz: 5
